@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8710423E29CDE29B00700435 /* screenRecordingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710423D29CDE29B00700435 /* screenRecordingApp.swift */; };
+		8710424029CDE29B00700435 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710423F29CDE29B00700435 /* ContentView.swift */; };
+		8710424229CDE29C00700435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8710424129CDE29C00700435 /* Assets.xcassets */; };
+		8710424529CDE29C00700435 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8710424429CDE29C00700435 /* Preview Assets.xcassets */; };
+		8710424D29CDE38100700435 /* SwiftUIViewRecorder in Frameworks */ = {isa = PBXBuildFile; productRef = 8710424C29CDE38100700435 /* SwiftUIViewRecorder */; };
+		8710424F29CDE49F00700435 /* MyViewWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710424E29CDE49F00700435 /* MyViewWithAnimation.swift */; };
+		8710425129CDE4F600700435 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710425029CDE4F600700435 /* SomeView.swift */; };
+		878A070329CFF88D002DB0BE /* recordViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A070229CFF88D002DB0BE /* recordViewExt.swift */; };
+		878A070529CFF9B9002DB0BE /* FramesRendererProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A070429CFF9B9002DB0BE /* FramesRendererProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8710423A29CDE29B00700435 /* screenRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = screenRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8710423D29CDE29B00700435 /* screenRecordingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenRecordingApp.swift; sourceTree = "<group>"; };
+		8710423F29CDE29B00700435 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8710424129CDE29C00700435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8710424429CDE29C00700435 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8710424E29CDE49F00700435 /* MyViewWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewWithAnimation.swift; sourceTree = "<group>"; };
+		8710425029CDE4F600700435 /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
+		878A070229CFF88D002DB0BE /* recordViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordViewExt.swift; sourceTree = "<group>"; };
+		878A070429CFF9B9002DB0BE /* FramesRendererProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesRendererProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8710423729CDE29B00700435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8710424D29CDE38100700435 /* SwiftUIViewRecorder in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8710423129CDE29B00700435 = {
+			isa = PBXGroup;
+			children = (
+				8710423C29CDE29B00700435 /* screenRecording */,
+				8710423B29CDE29B00700435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8710423B29CDE29B00700435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8710423A29CDE29B00700435 /* screenRecording.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8710423C29CDE29B00700435 /* screenRecording */ = {
+			isa = PBXGroup;
+			children = (
+				878A070129CFF835002DB0BE /* extensions */,
+				8710423D29CDE29B00700435 /* screenRecordingApp.swift */,
+				8710423F29CDE29B00700435 /* ContentView.swift */,
+				8710424E29CDE49F00700435 /* MyViewWithAnimation.swift */,
+				8710425029CDE4F600700435 /* SomeView.swift */,
+				8710424129CDE29C00700435 /* Assets.xcassets */,
+				8710424329CDE29C00700435 /* Preview Content */,
+			);
+			path = screenRecording;
+			sourceTree = "<group>";
+		};
+		8710424329CDE29C00700435 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8710424429CDE29C00700435 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		878A070129CFF835002DB0BE /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				878A070229CFF88D002DB0BE /* recordViewExt.swift */,
+				878A070429CFF9B9002DB0BE /* FramesRendererProtocol.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8710423929CDE29B00700435 /* screenRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8710424829CDE29C00700435 /* Build configuration list for PBXNativeTarget "screenRecording" */;
+			buildPhases = (
+				8710423629CDE29B00700435 /* Sources */,
+				8710423729CDE29B00700435 /* Frameworks */,
+				8710423829CDE29B00700435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = screenRecording;
+			packageProductDependencies = (
+				8710424C29CDE38100700435 /* SwiftUIViewRecorder */,
+			);
+			productName = screenRecording;
+			productReference = 8710423A29CDE29B00700435 /* screenRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8710423229CDE29B00700435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8710423929CDE29B00700435 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8710423529CDE29B00700435 /* Build configuration list for PBXProject "screenRecording" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8710423129CDE29B00700435;
+			packageReferences = (
+				8710424B29CDE38100700435 /* XCRemoteSwiftPackageReference "SwiftUIViewRecorder" */,
+			);
+			productRefGroup = 8710423B29CDE29B00700435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8710423929CDE29B00700435 /* screenRecording */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8710423829CDE29B00700435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8710424529CDE29C00700435 /* Preview Assets.xcassets in Resources */,
+				8710424229CDE29C00700435 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8710423629CDE29B00700435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878A070529CFF9B9002DB0BE /* FramesRendererProtocol.swift in Sources */,
+				8710425129CDE4F600700435 /* SomeView.swift in Sources */,
+				878A070329CFF88D002DB0BE /* recordViewExt.swift in Sources */,
+				8710424029CDE29B00700435 /* ContentView.swift in Sources */,
+				8710423E29CDE29B00700435 /* screenRecordingApp.swift in Sources */,
+				8710424F29CDE49F00700435 /* MyViewWithAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8710424629CDE29C00700435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8710424729CDE29C00700435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8710424929CDE29C00700435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"screenRecording/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HJ6SH2W7S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anubhavRawat.screenRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8710424A29CDE29C00700435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"screenRecording/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HJ6SH2W7S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = anubhavRawat.screenRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8710423529CDE29B00700435 /* Build configuration list for PBXProject "screenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8710424629CDE29C00700435 /* Debug */,
+				8710424729CDE29C00700435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8710424829CDE29C00700435 /* Build configuration list for PBXNativeTarget "screenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8710424929CDE29C00700435 /* Debug */,
+				8710424A29CDE29C00700435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8710424B29CDE38100700435 /* XCRemoteSwiftPackageReference "SwiftUIViewRecorder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frolovilya/SwiftUIViewRecorder#viewAsVideo";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8710424C29CDE38100700435 /* SwiftUIViewRecorder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8710424B29CDE38100700435 /* XCRemoteSwiftPackageReference "SwiftUIViewRecorder" */;
+			productName = SwiftUIViewRecorder;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8710423229CDE29B00700435 /* Project object */;
+}

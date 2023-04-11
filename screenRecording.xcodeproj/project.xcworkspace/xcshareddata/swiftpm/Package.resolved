@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuiviewrecorder#viewasvideo",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/frolovilya/SwiftUIViewRecorder#viewAsVideo",
+      "state" : {
+        "revision" : "c9a33f27f3bd959789f3a88123309f77236e171e",
+        "version" : "0.1.0"
+      }
+    },
+    {
+      "identity" : "uiimageextensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/frolovilya/UIImageExtensions.git",
+      "state" : {
+        "revision" : "21c0dea5f6bdd0dd2ab40488b2b5da302c842838",
+        "version" : "0.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
