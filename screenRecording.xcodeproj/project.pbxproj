@@ -14,8 +14,19 @@
 		8710424D29CDE38100700435 /* SwiftUIViewRecorder in Frameworks */ = {isa = PBXBuildFile; productRef = 8710424C29CDE38100700435 /* SwiftUIViewRecorder */; };
 		8710424F29CDE49F00700435 /* MyViewWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710424E29CDE49F00700435 /* MyViewWithAnimation.swift */; };
 		8710425129CDE4F600700435 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8710425029CDE4F600700435 /* SomeView.swift */; };
-		878A070329CFF88D002DB0BE /* recordViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A070229CFF88D002DB0BE /* recordViewExt.swift */; };
-		878A070529CFF9B9002DB0BE /* FramesRendererProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A070429CFF9B9002DB0BE /* FramesRendererProtocol.swift */; };
+		87B4473329E548CB00B28837 /* ViewFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4473229E548CB00B28837 /* ViewFrame.swift */; };
+		87B4473529E548ED00B28837 /* ViewRecordingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4473429E548ED00B28837 /* ViewRecordingError.swift */; };
+		87B4473729E548FA00B28837 /* ViewRecordingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4473629E548FA00B28837 /* ViewRecordingSession.swift */; };
+		87B4473929E5490C00B28837 /* ViewRecordingSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4473829E5490C00B28837 /* ViewRecordingSessionViewModel.swift */; };
+		87B4473B29E5492300B28837 /* ViewToUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4473A29E5492300B28837 /* ViewToUIView.swift */; };
+		87B4473D29E5493300B28837 /* ViewAsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4473C29E5493300B28837 /* ViewAsImage.swift */; };
+		87B4473F29E5494900B28837 /* ViewImageCapturingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4473E29E5494900B28837 /* ViewImageCapturingViewModel.swift */; };
+		87B4474129E5495E00B28837 /* UIImagesToVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4474029E5495E00B28837 /* UIImagesToVideo.swift */; };
+		87B4474329E5497100B28837 /* UIImagesToVideoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4474229E5497100B28837 /* UIImagesToVideoError.swift */; };
+		87B4474529E5498500B28837 /* VideoRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4474429E5498500B28837 /* VideoRenderer.swift */; };
+		87B4474729E5499800B28837 /* ViewAsVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4474629E5499800B28837 /* ViewAsVideo.swift */; };
+		87B4474929E549A900B28837 /* FramesRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4474829E549A900B28837 /* FramesRenderer.swift */; };
+		87B4474B29E549BC00B28837 /* ViewAssetRecordingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B4474A29E549BC00B28837 /* ViewAssetRecordingSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +37,19 @@
 		8710424429CDE29C00700435 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8710424E29CDE49F00700435 /* MyViewWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewWithAnimation.swift; sourceTree = "<group>"; };
 		8710425029CDE4F600700435 /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
-		878A070229CFF88D002DB0BE /* recordViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordViewExt.swift; sourceTree = "<group>"; };
-		878A070429CFF9B9002DB0BE /* FramesRendererProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesRendererProtocol.swift; sourceTree = "<group>"; };
+		87B4473229E548CB00B28837 /* ViewFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFrame.swift; sourceTree = "<group>"; };
+		87B4473429E548ED00B28837 /* ViewRecordingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRecordingError.swift; sourceTree = "<group>"; };
+		87B4473629E548FA00B28837 /* ViewRecordingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRecordingSession.swift; sourceTree = "<group>"; };
+		87B4473829E5490C00B28837 /* ViewRecordingSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRecordingSessionViewModel.swift; sourceTree = "<group>"; };
+		87B4473A29E5492300B28837 /* ViewToUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewToUIView.swift; sourceTree = "<group>"; };
+		87B4473C29E5493300B28837 /* ViewAsImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAsImage.swift; sourceTree = "<group>"; };
+		87B4473E29E5494900B28837 /* ViewImageCapturingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewImageCapturingViewModel.swift; sourceTree = "<group>"; };
+		87B4474029E5495E00B28837 /* UIImagesToVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagesToVideo.swift; sourceTree = "<group>"; };
+		87B4474229E5497100B28837 /* UIImagesToVideoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagesToVideoError.swift; sourceTree = "<group>"; };
+		87B4474429E5498500B28837 /* VideoRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRenderer.swift; sourceTree = "<group>"; };
+		87B4474629E5499800B28837 /* ViewAsVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAsVideo.swift; sourceTree = "<group>"; };
+		87B4474829E549A900B28837 /* FramesRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesRenderer.swift; sourceTree = "<group>"; };
+		87B4474A29E549BC00B28837 /* ViewAssetRecordingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssetRecordingSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +105,19 @@
 		878A070129CFF835002DB0BE /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				878A070229CFF88D002DB0BE /* recordViewExt.swift */,
-				878A070429CFF9B9002DB0BE /* FramesRendererProtocol.swift */,
+				87B4473229E548CB00B28837 /* ViewFrame.swift */,
+				87B4473429E548ED00B28837 /* ViewRecordingError.swift */,
+				87B4473629E548FA00B28837 /* ViewRecordingSession.swift */,
+				87B4473829E5490C00B28837 /* ViewRecordingSessionViewModel.swift */,
+				87B4473A29E5492300B28837 /* ViewToUIView.swift */,
+				87B4473C29E5493300B28837 /* ViewAsImage.swift */,
+				87B4473E29E5494900B28837 /* ViewImageCapturingViewModel.swift */,
+				87B4474029E5495E00B28837 /* UIImagesToVideo.swift */,
+				87B4474229E5497100B28837 /* UIImagesToVideoError.swift */,
+				87B4474429E5498500B28837 /* VideoRenderer.swift */,
+				87B4474629E5499800B28837 /* ViewAsVideo.swift */,
+				87B4474829E549A900B28837 /* FramesRenderer.swift */,
+				87B4474A29E549BC00B28837 /* ViewAssetRecordingSession.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -165,12 +198,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878A070529CFF9B9002DB0BE /* FramesRendererProtocol.swift in Sources */,
+				87B4474529E5498500B28837 /* VideoRenderer.swift in Sources */,
 				8710425129CDE4F600700435 /* SomeView.swift in Sources */,
-				878A070329CFF88D002DB0BE /* recordViewExt.swift in Sources */,
+				87B4473B29E5492300B28837 /* ViewToUIView.swift in Sources */,
+				87B4474129E5495E00B28837 /* UIImagesToVideo.swift in Sources */,
+				87B4474929E549A900B28837 /* FramesRenderer.swift in Sources */,
+				87B4473529E548ED00B28837 /* ViewRecordingError.swift in Sources */,
+				87B4473329E548CB00B28837 /* ViewFrame.swift in Sources */,
 				8710424029CDE29B00700435 /* ContentView.swift in Sources */,
+				87B4474B29E549BC00B28837 /* ViewAssetRecordingSession.swift in Sources */,
+				87B4473F29E5494900B28837 /* ViewImageCapturingViewModel.swift in Sources */,
+				87B4474729E5499800B28837 /* ViewAsVideo.swift in Sources */,
 				8710423E29CDE29B00700435 /* screenRecordingApp.swift in Sources */,
+				87B4474329E5497100B28837 /* UIImagesToVideoError.swift in Sources */,
 				8710424F29CDE49F00700435 /* MyViewWithAnimation.swift in Sources */,
+				87B4473929E5490C00B28837 /* ViewRecordingSessionViewModel.swift in Sources */,
+				87B4473D29E5493300B28837 /* ViewAsImage.swift in Sources */,
+				87B4473729E548FA00B28837 /* ViewRecordingSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

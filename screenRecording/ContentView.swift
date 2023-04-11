@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SwiftUIViewRecorder
+//import SwiftUIViewRecorder
 
 struct ContentView: View {
     var body: some View {

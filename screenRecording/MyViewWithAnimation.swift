@@ -1,6 +1,6 @@
 import SwiftUI
 import AVFoundation
-import SwiftUIViewRecorder
+//import SwiftUIViewRecorder
 import AVKit
 
 struct MyViewWithAnimation: View {
